@@ -1,0 +1,16 @@
+# --- Whisper Speech-to-Text ---
+openai-whisper>=20231117
+tqdm>=4.66.1
+
+# --- Audio Processing ---
+numpy>=1.26.0
+soundfile>=0.12.1
+ffmpeg-python>=0.2.0
+
+# --- Model & Torch Dependencies ---
+torch>=2.2.0
+torchaudio>=2.2.0
+
+# --- Optional Enhancements ---
+pydub>=0.25.1      # For easy audio segmenting
+python-dotenv>=1.0.1  # For loading environment variables
